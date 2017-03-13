@@ -1,2 +1,2 @@
 # developer-ui
-The web interface for developer
+The web interface for developer, only front end.

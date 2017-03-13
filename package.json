@@ -1,0 +1,21 @@
+{
+  "name": "developer-ui",
+  "version": "0.0.1",
+  "description": "developer's web ui",
+  "main": "application.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node ./src/main/com/umasuo/developerui/application.js"
+  },
+  "keywords": [
+    "developer-ui"
+  ],
+  "author": "liuquan89@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
