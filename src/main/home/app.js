@@ -9,7 +9,7 @@ Vue.component('Menu', Menu)
 import Footer from '../common/components/Footer.vue'
 Vue.component('Footer', Footer)
 
-// The Main page
+// The Main page, use home page as main page.
 import Main from './components/homepage/index.vue'
 
 // the store

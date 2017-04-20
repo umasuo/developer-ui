@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+// import testm from './testm.js'
 
 Vue.use(Vuex)
 
@@ -8,6 +9,7 @@ Vue.use(Vuex)
 const state = {
   count: 0
 }
+// state.testm = testm.state
 
 // mutations are operations that actually mutates the state.
 // each mutation handler gets the entire state tree as the
@@ -15,10 +17,10 @@ const state = {
 // mutations must be synchronous and can be recorded by plugins
 // for debugging purposes.
 const mutations = {
-  increment (state) {
+  increment(state) {
     state.count++
   },
-  decrement (state) {
+  decrement(state) {
     state.count--
   }
 }
@@ -28,12 +30,12 @@ const mutations = {
 const actions = {
   increment: ({ commit }) => commit('increment'),
   decrement: ({ commit }) => commit('decrement'),
-  incrementIfOdd ({ commit, state }) {
+  incrementIfOdd({ commit, state }) {
     if ((state.count + 1) % 2 === 0) {
       commit('increment')
     }
   },
-  incrementAsync ({ commit }) {
+  incrementAsync({ commit }) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         commit('increment')
@@ -48,11 +50,16 @@ const getters = {
   evenOrOdd: state => state.count % 2 === 0 ? 'even' : 'odd'
 }
 
+import developer from "../components/developer/store/index"
+
 // A Vuex instance is created by combining the state, mutations, actions,
 // and getters.
 export default new Vuex.Store({
   state,
   getters,
   actions,
-  mutations
+  mutations,
+  modules: {
+    developer: developer
+  }
 })

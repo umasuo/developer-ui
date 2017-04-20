@@ -12,9 +12,9 @@
 
 <script>
 import Vue from 'vue'
-import Carousel from './Carousel.vue'
-import Feature from './Feature.vue'
-import Solution from './Solution.vue'
+import Carousel from './carousel.vue'
+import Feature from './feature.vue'
+import Solution from './solution.vue'
 import { mapGetters, mapActions } from 'vuex'
 
 export default {

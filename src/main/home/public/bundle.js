@@ -11630,7 +11630,7 @@ var Component = __webpack_require__(45)(
   /* script */
   __webpack_require__(129),
   /* template */
-  __webpack_require__(330),
+  __webpack_require__(331),
   /* scopeId */
   null,
   /* cssModules */
@@ -11664,7 +11664,7 @@ var Component = __webpack_require__(45)(
   /* script */
   __webpack_require__(132),
   /* template */
-  __webpack_require__(329),
+  __webpack_require__(330),
   /* scopeId */
   null,
   /* cssModules */
@@ -11852,12 +11852,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Carousel_vue__ = __webpack_require__(324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Carousel_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Carousel_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Feature_vue__ = __webpack_require__(325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Feature_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Feature_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Solution_vue__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Solution_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Solution_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__carousel_vue__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__carousel_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__carousel_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__feature_vue__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__feature_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__feature_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__solution_vue__ = __webpack_require__(326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__solution_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__solution_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_vuex__ = __webpack_require__(91);
 //
 //
@@ -11881,7 +11881,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = {
   computed: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_vuex__["mapGetters"])(['evenOrOdd']),
   methods: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_vuex__["mapActions"])(['increment']),
-  components: { Carousel: __WEBPACK_IMPORTED_MODULE_1__Carousel_vue___default.a, Feature: __WEBPACK_IMPORTED_MODULE_2__Feature_vue___default.a, Solution: __WEBPACK_IMPORTED_MODULE_3__Solution_vue___default.a }
+  components: { Carousel: __WEBPACK_IMPORTED_MODULE_1__carousel_vue___default.a, Feature: __WEBPACK_IMPORTED_MODULE_2__feature_vue___default.a, Solution: __WEBPACK_IMPORTED_MODULE_3__solution_vue___default.a }
 };
 
 /***/ }),
@@ -17907,7 +17907,7 @@ exports = module.exports = __webpack_require__(88)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -17935,7 +17935,7 @@ exports = module.exports = __webpack_require__(88)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -18789,21 +18789,21 @@ module.exports = Array.isArray || function (arr) {
 
 
 /* styles */
-__webpack_require__(335)
+__webpack_require__(333)
 
 var Component = __webpack_require__(45)(
   /* script */
   __webpack_require__(130),
   /* template */
-  __webpack_require__(331),
+  __webpack_require__(329),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/Carousel.vue"
+Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/carousel.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Carousel.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] carousel.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -18812,9 +18812,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-ec77a2b2", Component.options)
+    hotAPI.createRecord("data-v-7ff8da87", Component.options)
   } else {
-    hotAPI.reload("data-v-ec77a2b2", Component.options)
+    hotAPI.reload("data-v-7ff8da87", Component.options)
   }
 })()}
 
@@ -18827,21 +18827,21 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(333)
+__webpack_require__(335)
 
 var Component = __webpack_require__(45)(
   /* script */
   __webpack_require__(131),
   /* template */
-  __webpack_require__(328),
+  __webpack_require__(332),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/Feature.vue"
+Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/feature.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Feature.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] feature.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -18850,9 +18850,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2acb3402", Component.options)
+    hotAPI.createRecord("data-v-f19e83c2", Component.options)
   } else {
-    hotAPI.reload("data-v-2acb3402", Component.options)
+    hotAPI.reload("data-v-f19e83c2", Component.options)
   }
 })()}
 
@@ -18867,15 +18867,15 @@ var Component = __webpack_require__(45)(
   /* script */
   null,
   /* template */
-  __webpack_require__(332),
+  __webpack_require__(328),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/Solution.vue"
+Component.options.__file = "/Users/umasuo/Desktop/projects/umasuo/U-Device-Cloud/developer-ui/src/main/home/components/homepage/solution.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] Solution.vue: functional components are not supported with templates, they should use render functions.")}
+if (Component.options.functional) {console.error("[vue-loader] solution.vue: functional components are not supported with templates, they should use render functions.")}
 
 /* hot reload */
 if (false) {(function () {
@@ -18884,9 +18884,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-fce13380", Component.options)
+    hotAPI.createRecord("data-v-77c41220", Component.options)
   } else {
-    hotAPI.reload("data-v-fce13380", Component.options)
+    hotAPI.reload("data-v-77c41220", Component.options)
   }
 })()}
 
@@ -18927,222 +18927,92 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "row"
+  return _c('div', [_c('hr', {
+    staticClass: "featurette-divider"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "row featurette"
   }, [_c('div', {
-    staticClass: "col-lg-4"
-  }, [_c('img', {
-    staticClass: "rounded-circle",
-    attrs: {
-      "src": __webpack_require__(121),
-      "alt": "Generic placeholder image",
-      "width": "140",
-      "height": "140"
-    }
-  }), _vm._v(" "), _c('h2', [_vm._v("极简接入")]), _vm._v(" "), _c('p', [_vm._v("Eva Cloud 云平台，作为SAAS平台提供服务。采取一键式申请，申请即可使用的方式，简化申请审核流程，简化设备接入方式，提升硬件开发团队的效率...")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-success",
+    staticClass: "col-md-7"
+  }, [_c('h2', {
+    staticClass: "featurette-heading"
+  }, [_vm._v("开通Eva公有云")]), _vm._v(" "), _c('p', {
+    staticClass: "lead"
+  }, [_vm._v("如果您是初创团队，且预算和人力有限，建议直接接入Eva云平台，本云平台基本能够满足您的需求。")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-primary",
     attrs: {
       "href": "#",
       "role": "button"
     }
-  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-lg-4"
+  }, [_vm._v("开启功能 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-md-5"
   }, [_c('img', {
-    staticClass: "rounded-circle",
-    attrs: {
-      "src": __webpack_require__(120),
-      "alt": "Generic placeholder image",
-      "width": "140",
-      "height": "140"
-    }
-  }), _vm._v(" "), _c('h2', [_vm._v("安全，稳定，高效")]), _vm._v(" "), _c('p', [_vm._v("云平台采用业界领先的技术进行开发。部署，目前采用的基础架构为：kubernetes，docker，微服务，同时云平台运行在AWS上，能够提供更稳定，安全的云服务。")]), _vm._v(" "), _c('p', [_vm._v("实时的预警和状态监控也极大的提升了云服务的可靠性...")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-success",
-    attrs: {
-      "href": "#",
-      "role": "button"
-    }
-  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-lg-4"
-  }, [_c('img', {
-    staticClass: "rounded-circle",
-    attrs: {
-      "src": __webpack_require__(122),
-      "alt": "Generic placeholder image",
-      "width": "140",
-      "height": "140"
-    }
-  }), _vm._v(" "), _c('h2', [_vm._v("灵活的自定义功能")]), _vm._v(" "), _c('p', [_vm._v("每个团队的核心竞争力必然会有自己独特的功能，Eva云平台提供了每个团队定义自己业务功能的方案，让你不必再部署独立的一套云服务...")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-success",
-    attrs: {
-      "href": "#",
-      "role": "button"
-    }
-  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-lg-4"
-  }, [_c('img', {
-    staticClass: "rounded-circle",
+    staticClass: "featurette-image img-fluid mx-auto",
     attrs: {
       "src": __webpack_require__(89),
-      "alt": "Generic placeholder image",
-      "width": "140",
-      "height": "140"
+      "alt": "Generic placeholder image"
     }
-  }), _vm._v(" "), _c('h2', [_vm._v("实时的数据分析")]), _vm._v(" "), _c('p', [_vm._v("实时的数据分析，数据报表能够更有效的为团队提供各方面的决策支持...")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-success",
+  })])]), _vm._v(" "), _c('hr', {
+    staticClass: "featurette-divider"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "row featurette"
+  }, [_c('div', {
+    staticClass: "col-md-7 push-md-5"
+  }, [_c('h2', {
+    staticClass: "featurette-heading"
+  }, [_vm._v("建立私有云")]), _vm._v(" "), _c('p', {
+    staticClass: "lead"
+  }, [_vm._v("如果您有成熟的团队，以及特殊的需求，需要开发与定义自己的私有云，Eva团队可以为您定制化开发并部署一套私有云服务。")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-primary",
     attrs: {
       "href": "#",
       "role": "button"
     }
-  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-lg-4"
+  }, [_vm._v("立即建立 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-md-5 pull-md-7"
   }, [_c('img', {
-    staticClass: "rounded-circle",
+    staticClass: "featurette-image img-fluid mx-auto",
     attrs: {
-      "src": __webpack_require__(319),
-      "alt": "Generic placeholder image",
-      "width": "140",
-      "height": "140"
+      "src": __webpack_require__(120),
+      "alt": "Generic placeholder image"
     }
-  }), _vm._v(" "), _c('h2', [_vm._v("设备协作，单品价值提升")]), _vm._v(" "), _c('p', [_vm._v("单兵作战的时代终究会远去，集体协作的方式能够极大的放大单品的价值，能够更好的为用户服务。")]), _vm._v(" "), _c('p', [_vm._v("Eva云平台为设备间的协作，团队间的协作提供了可能...")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-success",
+  })])]), _vm._v(" "), _c('hr', {
+    staticClass: "featurette-divider"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "row featurette"
+  }, [_c('div', {
+    staticClass: "col-md-7"
+  }, [_c('h2', {
+    staticClass: "featurette-heading"
+  }, [_vm._v("其他服务")]), _vm._v(" "), _c('p', {
+    staticClass: "lead"
+  }, [_vm._v("如果您需要官网，微信硬件接入，电商平台接入等服务，Eva团队也有专业的团队为您提供这方面的服务和咨询。")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-primary",
     attrs: {
       "href": "#",
       "role": "button"
     }
-  }, [_vm._v("更多 »")])])])])
+  }, [_vm._v("联系Eva团队 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-md-5"
+  }, [_c('img', {
+    staticClass: "featurette-image img-fluid mx-auto",
+    attrs: {
+      "src": __webpack_require__(320),
+      "alt": "Generic placeholder image"
+    }
+  })])]), _vm._v(" "), _c('hr', {
+    staticClass: "featurette-divider"
+  })])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-2acb3402", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-77c41220", module.exports)
   }
 }
 
 /***/ }),
 /* 329 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    attrs: {
-      "id": "count"
-    }
-  }, [_c('Menu'), _vm._v(" "), _c('Carousel'), _vm._v(" "), _c('div', {
-    staticClass: "container marketing"
-  }, [_c('Feature'), _vm._v(" "), _c('Solution')], 1), _vm._v(" "), _c('Footer')], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-977a638a", module.exports)
-  }
-}
-
-/***/ }),
-/* 330 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    attrs: {
-      "id": "menu"
-    }
-  }, [_c('nav', {
-    staticClass: "navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse"
-  }, [_vm._m(0), _vm._v(" "), _c('a', {
-    staticClass: "navbar-brand",
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("Eva Cloud")]), _vm._v(" "), _c('div', {
-    staticClass: "collapse navbar-collapse",
-    attrs: {
-      "id": "navbarCollapse"
-    }
-  }, [_c('ul', {
-    staticClass: "navbar-nav mr-auto"
-  }, [_vm._m(1), _vm._v(" "), _c('li', {
-    staticClass: "nav-item"
-  }, [_c('a', {
-    staticClass: "nav-link",
-    on: {
-      "click": _vm.test
-    }
-  }, [_vm._v("解决方案")])]), _vm._v(" "), _vm._m(2), _vm._v(" "), _vm._m(3)]), _vm._v(" "), _c('button', {
-    staticClass: "btn btn-outline-success",
-    staticStyle: {
-      "margin": "0.1rem"
-    },
-    attrs: {
-      "type": "button",
-      "onclick": "window.location='./signin.html'"
-    }
-  }, [_vm._v("登录")]), _vm._v(" "), _c('button', {
-    staticClass: "btn btn-outline-info",
-    staticStyle: {
-      "margin": "0.1rem"
-    },
-    attrs: {
-      "type": "button",
-      "onclick": "window.location='./signup.html'"
-    }
-  }, [_vm._v("立即注册")])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('button', {
-    staticClass: "navbar-toggler navbar-toggler-right",
-    attrs: {
-      "type": "button",
-      "data-toggle": "collapse",
-      "data-target": "#navbarCollapse",
-      "aria-controls": "navbarCollapse",
-      "aria-expanded": "false",
-      "aria-label": "Toggle navigation"
-    }
-  }, [_c('span', {
-    staticClass: "navbar-toggler-icon"
-  })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('li', {
-    staticClass: "nav-item active"
-  }, [_c('a', {
-    staticClass: "nav-link",
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("首页 "), _c('span', {
-    staticClass: "sr-only"
-  }, [_vm._v("(current)")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('li', {
-    staticClass: "nav-item"
-  }, [_c('a', {
-    staticClass: "nav-link",
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("关于")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('li', {
-    staticClass: "nav-item"
-  }, [_c('a', {
-    staticClass: "nav-link",
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("开发文档")])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-eb3e46d6", module.exports)
-  }
-}
-
-/***/ }),
-/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19270,7 +19140,129 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-ec77a2b2", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-7ff8da87", module.exports)
+  }
+}
+
+/***/ }),
+/* 330 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    attrs: {
+      "id": "count"
+    }
+  }, [_c('Menu'), _vm._v(" "), _c('Carousel'), _vm._v(" "), _c('div', {
+    staticClass: "container marketing"
+  }, [_c('Feature'), _vm._v(" "), _c('Solution')], 1), _vm._v(" "), _c('Footer')], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-977a638a", module.exports)
+  }
+}
+
+/***/ }),
+/* 331 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    attrs: {
+      "id": "menu"
+    }
+  }, [_c('nav', {
+    staticClass: "navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse"
+  }, [_vm._m(0), _vm._v(" "), _c('a', {
+    staticClass: "navbar-brand",
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("Eva Cloud")]), _vm._v(" "), _c('div', {
+    staticClass: "collapse navbar-collapse",
+    attrs: {
+      "id": "navbarCollapse"
+    }
+  }, [_c('ul', {
+    staticClass: "navbar-nav mr-auto"
+  }, [_vm._m(1), _vm._v(" "), _c('li', {
+    staticClass: "nav-item"
+  }, [_c('a', {
+    staticClass: "nav-link",
+    on: {
+      "click": _vm.test
+    }
+  }, [_vm._v("解决方案")])]), _vm._v(" "), _vm._m(2), _vm._v(" "), _vm._m(3)]), _vm._v(" "), _c('button', {
+    staticClass: "btn btn-outline-success",
+    staticStyle: {
+      "margin": "0.1rem"
+    },
+    attrs: {
+      "type": "button",
+      "onclick": "window.location='./signin.html'"
+    }
+  }, [_vm._v("登录")]), _vm._v(" "), _c('button', {
+    staticClass: "btn btn-outline-info",
+    staticStyle: {
+      "margin": "0.1rem"
+    },
+    attrs: {
+      "type": "button",
+      "onclick": "window.location='./signup.html'"
+    }
+  }, [_vm._v("立即注册")])])])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('button', {
+    staticClass: "navbar-toggler navbar-toggler-right",
+    attrs: {
+      "type": "button",
+      "data-toggle": "collapse",
+      "data-target": "#navbarCollapse",
+      "aria-controls": "navbarCollapse",
+      "aria-expanded": "false",
+      "aria-label": "Toggle navigation"
+    }
+  }, [_c('span', {
+    staticClass: "navbar-toggler-icon"
+  })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', {
+    staticClass: "nav-item active"
+  }, [_c('a', {
+    staticClass: "nav-link",
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("首页 "), _c('span', {
+    staticClass: "sr-only"
+  }, [_vm._v("(current)")])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', {
+    staticClass: "nav-item"
+  }, [_c('a', {
+    staticClass: "nav-link",
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("关于")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', {
+    staticClass: "nav-item"
+  }, [_c('a', {
+    staticClass: "nav-link",
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("开发文档")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-eb3e46d6", module.exports)
   }
 }
 
@@ -19281,87 +19273,95 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('hr', {
-    staticClass: "featurette-divider"
-  }), _vm._v(" "), _c('div', {
-    staticClass: "row featurette"
+  return _c('div', {
+    staticClass: "row"
   }, [_c('div', {
-    staticClass: "col-md-7"
-  }, [_c('h2', {
-    staticClass: "featurette-heading"
-  }, [_vm._v("开通Eva公有云")]), _vm._v(" "), _c('p', {
-    staticClass: "lead"
-  }, [_vm._v("如果您是初创团队，且预算和人力有限，建议直接接入Eva云平台，本云平台基本能够满足您的需求。")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-primary",
+    staticClass: "col-lg-4"
+  }, [_c('img', {
+    staticClass: "rounded-circle",
+    attrs: {
+      "src": __webpack_require__(121),
+      "alt": "Generic placeholder image",
+      "width": "140",
+      "height": "140"
+    }
+  }), _vm._v(" "), _c('h2', [_vm._v("极简接入")]), _vm._v(" "), _c('p', [_vm._v("Eva Cloud 云平台，作为SAAS平台提供服务。采取一键式申请，申请即可使用的方式，简化申请审核流程，简化设备接入方式，提升硬件开发团队的效率...")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-success",
     attrs: {
       "href": "#",
       "role": "button"
     }
-  }, [_vm._v("开启功能 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-5"
+  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-4"
   }, [_c('img', {
-    staticClass: "featurette-image img-fluid mx-auto",
-    attrs: {
-      "src": __webpack_require__(89),
-      "alt": "Generic placeholder image"
-    }
-  })])]), _vm._v(" "), _c('hr', {
-    staticClass: "featurette-divider"
-  }), _vm._v(" "), _c('div', {
-    staticClass: "row featurette"
-  }, [_c('div', {
-    staticClass: "col-md-7 push-md-5"
-  }, [_c('h2', {
-    staticClass: "featurette-heading"
-  }, [_vm._v("建立私有云")]), _vm._v(" "), _c('p', {
-    staticClass: "lead"
-  }, [_vm._v("如果您有成熟的团队，以及特殊的需求，需要开发与定义自己的私有云，Eva团队可以为您定制化开发并部署一套私有云服务。")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-primary",
-    attrs: {
-      "href": "#",
-      "role": "button"
-    }
-  }, [_vm._v("立即建立 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-5 pull-md-7"
-  }, [_c('img', {
-    staticClass: "featurette-image img-fluid mx-auto",
+    staticClass: "rounded-circle",
     attrs: {
       "src": __webpack_require__(120),
-      "alt": "Generic placeholder image"
+      "alt": "Generic placeholder image",
+      "width": "140",
+      "height": "140"
     }
-  })])]), _vm._v(" "), _c('hr', {
-    staticClass: "featurette-divider"
-  }), _vm._v(" "), _c('div', {
-    staticClass: "row featurette"
-  }, [_c('div', {
-    staticClass: "col-md-7"
-  }, [_c('h2', {
-    staticClass: "featurette-heading"
-  }, [_vm._v("其他服务")]), _vm._v(" "), _c('p', {
-    staticClass: "lead"
-  }, [_vm._v("如果您需要官网，微信硬件接入，电商平台接入等服务，Eva团队也有专业的团队为您提供这方面的服务和咨询。")]), _vm._v(" "), _c('p', [_c('a', {
-    staticClass: "btn btn-primary",
+  }), _vm._v(" "), _c('h2', [_vm._v("安全，稳定，高效")]), _vm._v(" "), _c('p', [_vm._v("云平台采用业界领先的技术进行开发。部署，目前采用的基础架构为：kubernetes，docker，微服务，同时云平台运行在AWS上，能够提供更稳定，安全的云服务。")]), _vm._v(" "), _c('p', [_vm._v("实时的预警和状态监控也极大的提升了云服务的可靠性...")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-success",
     attrs: {
       "href": "#",
       "role": "button"
     }
-  }, [_vm._v("联系Eva团队 »")])])]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-5"
+  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-4"
   }, [_c('img', {
-    staticClass: "featurette-image img-fluid mx-auto",
+    staticClass: "rounded-circle",
     attrs: {
-      "src": __webpack_require__(320),
-      "alt": "Generic placeholder image"
+      "src": __webpack_require__(122),
+      "alt": "Generic placeholder image",
+      "width": "140",
+      "height": "140"
     }
-  })])]), _vm._v(" "), _c('hr', {
-    staticClass: "featurette-divider"
-  })])
+  }), _vm._v(" "), _c('h2', [_vm._v("灵活的自定义功能")]), _vm._v(" "), _c('p', [_vm._v("每个团队的核心竞争力必然会有自己独特的功能，Eva云平台提供了每个团队定义自己业务功能的方案，让你不必再部署独立的一套云服务...")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-success",
+    attrs: {
+      "href": "#",
+      "role": "button"
+    }
+  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-4"
+  }, [_c('img', {
+    staticClass: "rounded-circle",
+    attrs: {
+      "src": __webpack_require__(89),
+      "alt": "Generic placeholder image",
+      "width": "140",
+      "height": "140"
+    }
+  }), _vm._v(" "), _c('h2', [_vm._v("实时的数据分析")]), _vm._v(" "), _c('p', [_vm._v("实时的数据分析，数据报表能够更有效的为团队提供各方面的决策支持...")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-success",
+    attrs: {
+      "href": "#",
+      "role": "button"
+    }
+  }, [_vm._v("更多 »")])])]), _vm._v(" "), _c('div', {
+    staticClass: "col-lg-4"
+  }, [_c('img', {
+    staticClass: "rounded-circle",
+    attrs: {
+      "src": __webpack_require__(319),
+      "alt": "Generic placeholder image",
+      "width": "140",
+      "height": "140"
+    }
+  }), _vm._v(" "), _c('h2', [_vm._v("设备协作，单品价值提升")]), _vm._v(" "), _c('p', [_vm._v("单兵作战的时代终究会远去，集体协作的方式能够极大的放大单品的价值，能够更好的为用户服务。")]), _vm._v(" "), _c('p', [_vm._v("Eva云平台为设备间的协作，团队间的协作提供了可能...")]), _vm._v(" "), _c('p', [_c('a', {
+    staticClass: "btn btn-success",
+    attrs: {
+      "href": "#",
+      "role": "button"
+    }
+  }, [_vm._v("更多 »")])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-fce13380", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-f19e83c2", module.exports)
   }
 }
 
@@ -19376,13 +19376,13 @@ var content = __webpack_require__(316);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(90)("545d0d07", content, false);
+var update = __webpack_require__(90)("0a5453ea", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-2acb3402\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Feature.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-2acb3402\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Feature.vue");
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7ff8da87\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./carousel.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7ff8da87\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./carousel.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -19428,13 +19428,13 @@ var content = __webpack_require__(318);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(90)("3e9ed309", content, false);
+var update = __webpack_require__(90)("4f3ceeb7", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-ec77a2b2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Carousel.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-ec77a2b2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Carousel.vue");
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-f19e83c2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./feature.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-f19e83c2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./feature.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -19516,7 +19516,7 @@ _vue2.default.component('Menu', _Menu2.default);
 
 _vue2.default.component('Footer', _Footer2.default);
 
-// The Main page
+// The Main page, use home page as main page.
 
 
 // the store

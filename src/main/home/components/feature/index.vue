@@ -1,22 +1,23 @@
 <template>
-  <div id="app">
+  <div id="count">
+    <Menu></Menu>
+    
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+
 import { mapGetters, mapActions } from 'vuex'
-import firstcomponent from '../../common/components/menu.vue'
 
 export default {
   computed: mapGetters([
     'evenOrOdd'
   ]),
   methods: mapActions([
-    'increment',
-    'decrement',
-    'incrementIfOdd',
-    'incrementAsync'
+    'increment'
   ]),
-  components: { firstcomponent }
+  components: { Carousel, Feature, Solution }
 }
 </script>
